@@ -1,0 +1,23 @@
+{
+  "name": "hrms-lite",
+  "version": "1.0.0",
+  "description": "HRMS Lite - Lightweight Human Resource Management System (MERN Stack Rebuild)",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "seed": "npm run seed --prefix server",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "powershell -Command \"Start-Process npm -ArgumentList 'run server' -NoNewWindow; npm run client\""
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "hrms"
+  ],
+  "author": "",
+  "license": "ISC"
+}
